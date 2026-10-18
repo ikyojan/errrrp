@@ -1,0 +1,42 @@
+{
+  "active": true,
+  "hostname": "rdpfree-1",
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "os_build": "10.0.26100",
+  "os_style": "Native Windows",
+  "hardware": {
+    "disk_free_gb": 28.3,
+    "cpu_threads": 4,
+    "ram_gb": 16.0
+  },
+  "rdp_port": 3389,
+  "rdp_user": "xyadmin",
+  "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
+  "rdp_denyts": true,
+  "started_at": "2026-10-18T01:16:59Z",
+  "expires_at": "2026-10-18T06:58:59Z",
+  "duration_menit": 342,
+  "run_id": "39085894776",
+  "run_attempt": "1",
+  "run_number": "1",
+  "run_url": "https://github.com/ikyojan/errrrp/actions/runs/39085894776",
+  "mode": "bersih+win10",
+  "akses": {
+    "tunnel": {
+      "outside": "tailscale",
+      "address": "100.110.148.12:3389",
+      "port": 3389,
+      "selftest": "ok",
+      "host": "100.110.148.12",
+      "status": "ok"
+    },
+    "tailscale": {
+      "ip": "100.110.148.12",
+      "hostname": "rdpfree-1",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "status": "ok",
+      "magicdns": "rdpfree-1.tail4adb3b.ts.net."
+    },
+    "mode": "tailscale"
+  }
+}
